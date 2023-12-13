@@ -1,0 +1,38 @@
+package com.calender;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+
+public class CalenderAGAdemo {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\chromedriver_114\\chromedriver.exe");
+		WebDriver driver= new ChromeDriver();
+		driver.manage().deleteAllCookies();
+		driver.manage().window().maximize();
+		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(40l));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(40l)); // mandatory
+		driver.get("http://10.91.75.150:8082/Aga-UI/");
+
+		
+		driver.findElement(By.xpath("//input[@id='usernameField-input']")).sendKeys("Sanket");
+		driver.findElement(By.xpath("//input[@id='passwordField-input']")).sendKeys("Test@123");
+		driver.findElement(By.xpath("//body[1]/div[5]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[2]/td[2]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/div[1]")).click();
+		
+		driver.findElement(By.xpath("//body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[2]/td[2]/div[1]/div[1]")).click();
+		driver.findElement(By.xpath("/html[1]/body[1]/div[5]/div[2]/div[4]/div[1]/span[1]")).click();
+		
+		driver.findElement(By.xpath("//tbody/tr[2]/td[1]/img[1]")).click();
+		driver.findElement(By.xpath("//body[1]/div[6]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]")).click();
+		
+		
+		
+		
+		
+	}
+
+}

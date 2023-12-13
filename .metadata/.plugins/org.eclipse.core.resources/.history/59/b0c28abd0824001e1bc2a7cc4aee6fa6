@@ -1,0 +1,29 @@
+package com.actions;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+
+public class SliderDemo {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\chromedriver_114\\chromedriver.exe");
+		WebDriver driver= new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));// due to ajax element it will take time to render so we have to use this
+		driver.get("https://jqueryui.com/slider/");
+		WebElement slider=driver.findElement(By.xpath("//*[@class='ui-slider-handle ui-corner-all ui-state-default']"));
+		Actions act= new Actions(driver);
+		act.moveToElement(slider).dragAndDropBy(slider, 300, 300).build().perform();
+		
+		
+		
+		
+	
+	}
+
+}

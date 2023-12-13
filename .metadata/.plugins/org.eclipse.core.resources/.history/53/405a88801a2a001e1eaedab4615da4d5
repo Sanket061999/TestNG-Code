@@ -1,0 +1,25 @@
+package com.calender;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+
+public class CalenderAGAdemo {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\chromedriver_114\\chromedriver.exe");
+		WebDriver driver= new ChromeDriver();
+		driver.manage().deleteAllCookies();
+		driver.manage().window().maximize();
+		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
+		driver.get("http://10.91.75.150:8082/Aga-UI/");
+		
+		driver.findElement(By.xpath("//input[@id='usernameField-input']")).sendKeys("Sanket");
+		driver.findElement(By.xpath("//input[@id='passwordField-input']")).sendKeys("Test@123");
+		
+	}
+
+}

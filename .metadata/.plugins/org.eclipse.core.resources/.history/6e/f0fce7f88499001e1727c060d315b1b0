@@ -1,0 +1,24 @@
+package com.sanket.test;
+
+public class FirstClass {
+
+	public void inMain() {
+		System.out.println("In Main Method");
+	}
+
+	public void inSecond() {
+		System.out.println("In Second Method");
+	}
+<<<<<<< HEAD
+	
+
+	public void inThirdMasterBrach() {
+		System.out.println("In Third Master Branch");
+=======
+
+	public void inThirdDevelopBrach() {
+		System.out.println("From Brach");
+>>>>>>> branch1_develop
+	}
+}
+

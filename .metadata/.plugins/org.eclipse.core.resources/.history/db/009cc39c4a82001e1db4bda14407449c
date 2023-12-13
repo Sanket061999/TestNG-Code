@@ -1,0 +1,19 @@
+package com.sanket.reports;
+
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+
+public class ExtentReportsDemo {
+
+	public static void main(String[] args) {
+		ExtentReports extentReports=new ExtentReports();
+		ExtentSparkReporter reports=new ExtentSparkReporter("./a//eportsIndex.html");
+		extentReports.attachReporter(reports);
+		
+		extentReports.flush();
+				
+		
+
+	}
+
+}

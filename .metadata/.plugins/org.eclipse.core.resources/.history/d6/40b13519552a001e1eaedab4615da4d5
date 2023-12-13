@@ -1,0 +1,21 @@
+package com.calender;
+
+import java.time.Duration;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+
+public class CalenderWorkingDemo {
+	
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\chromedriver_114\\chromedriver.exe");
+		WebDriver driver= new ChromeDriver();
+		driver.manage().deleteAllCookies();
+		driver.manage().window().maximize();
+		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(40l));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(40l)); // mandatory
+		driver.get("https://jqueryui.com/datepicker/");
+	}
+
+}

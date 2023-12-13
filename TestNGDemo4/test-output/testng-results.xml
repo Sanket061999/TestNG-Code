@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-31T15:05:35 IST" name="Loan Department Suite" finished-at="2023-10-31T15:05:35 IST" duration-ms="77">
+    <groups>
+    </groups>
+    <test started-at="2023-10-31T15:05:35 IST" name=" Personal Loan Test" finished-at="2023-10-31T15:05:35 IST" duration-ms="77">
+      <class name="com.testng.demo.TestNGDemo1">
+        <test-method signature="demoTest11()[pri:0, instance:com.testng.demo.TestNGDemo1@36916eb0]" started-at="2023-10-31T15:05:35 IST" name="demoTest11" finished-at="2023-10-31T15:05:35 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoTest11 -->
+        <test-method signature="demoTest12()[pri:0, instance:com.testng.demo.TestNGDemo1@36916eb0]" started-at="2023-10-31T15:05:35 IST" name="demoTest12" finished-at="2023-10-31T15:05:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoTest12 -->
+      </class> <!-- com.testng.demo.TestNGDemo1 -->
+      <class name="com.testng.demo.TestNGDemo2">
+        <test-method signature="demoTest21()[pri:0, instance:com.testng.demo.TestNGDemo2@27f981c6]" started-at="2023-10-31T15:05:35 IST" name="demoTest21" finished-at="2023-10-31T15:05:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoTest21 -->
+        <test-method signature="demoTest22()[pri:0, instance:com.testng.demo.TestNGDemo2@27f981c6]" started-at="2023-10-31T15:05:35 IST" name="demoTest22" finished-at="2023-10-31T15:05:35 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoTest22 -->
+        <test-method signature="demoTest23()[pri:0, instance:com.testng.demo.TestNGDemo2@27f981c6]" started-at="2023-10-31T15:05:35 IST" name="demoTest23" finished-at="2023-10-31T15:05:35 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoTest23 -->
+      </class> <!-- com.testng.demo.TestNGDemo2 -->
+    </test> <!--  Personal Loan Test -->
+  </suite> <!-- Loan Department Suite -->
+</testng-results>

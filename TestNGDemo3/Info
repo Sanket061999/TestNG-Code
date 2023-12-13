@@ -1,0 +1,4 @@
+To skip perticular method/test from the class then we have to use <methods> and <exclude> tag write name of method inside the exclude tag
+
+Similarly for inclusion we have to use 
+<include> tag

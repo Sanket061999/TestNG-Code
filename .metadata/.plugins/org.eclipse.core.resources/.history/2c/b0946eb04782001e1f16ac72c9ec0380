@@ -1,0 +1,14 @@
+package com.sanket.reports;
+
+import com.aventstack.extentreports.ExtentReports;
+
+public class ReportsDemo {
+
+	public static void main(String[] args) {
+		ExtentReports extentReports=new ExtentReports();
+		
+		
+
+	}
+
+}

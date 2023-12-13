@@ -1,0 +1,11 @@
+Will work on @BeforeSuite
+@BeforeTest
+@BeforeClass
+@BeforeMethod
+
+@AfterMethod
+@AfterClass
+@AfterTest
+@AfterSuite
+
+and group keyword

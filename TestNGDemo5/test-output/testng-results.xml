@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-01T01:09:57 IST" name="Loan Department Suite" finished-at="2023-11-01T01:09:57 IST" duration-ms="144">
+    <groups>
+      <group name="A1">
+        <method signature="TestNGDemo2.demoTest21()[pri:0, instance:com.testng.demo.TestNGDemo2@48aca48b]" name="demoTest21" class="com.testng.demo.TestNGDemo2"/>
+        <method signature="TestNGDemo3.demoTest33()[pri:0, instance:com.testng.demo.TestNGDemo3@13fd2ccd]" name="demoTest33" class="com.testng.demo.TestNGDemo3"/>
+      </group> <!-- A1 -->
+    </groups>
+    <test started-at="2023-11-01T01:09:57 IST" name=" Personal Loan Test" finished-at="2023-11-01T01:09:57 IST" duration-ms="144">
+      <class name="com.testng.demo.TestNGDemo2">
+        <test-method signature="demoTest21()[pri:0, instance:com.testng.demo.TestNGDemo2@48aca48b]" started-at="2023-11-01T01:09:57 IST" name="demoTest21" finished-at="2023-11-01T01:09:57 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoTest21 -->
+      </class> <!-- com.testng.demo.TestNGDemo2 -->
+      <class name="com.testng.demo.TestNGDemo3">
+        <test-method signature="demoTest33()[pri:0, instance:com.testng.demo.TestNGDemo3@13fd2ccd]" started-at="2023-11-01T01:09:57 IST" name="demoTest33" finished-at="2023-11-01T01:09:57 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoTest33 -->
+      </class> <!-- com.testng.demo.TestNGDemo3 -->
+    </test> <!--  Personal Loan Test -->
+  </suite> <!-- Loan Department Suite -->
+</testng-results>

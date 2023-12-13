@@ -1,0 +1,11 @@
+package com.sanket.reports;
+public class ReportsDemo {
+
+	public static void main(String[] args) throws Exception  {
+		ExtentReports extentReports=new ExtentReports();
+		
+		
+
+	}
+
+}

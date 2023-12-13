@@ -1,0 +1,11 @@
+package com.wait;
+
+public class FluentWaitDemo {
+
+	public static void main(String[] args) {
+		
+		System.setProperty("webdriver.chrome.driver","C:\\Selenium\\chromedriver_114\\chromedriver.exe" )
+
+	}
+
+}

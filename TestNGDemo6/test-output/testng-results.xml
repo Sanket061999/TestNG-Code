@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-01T02:21:45 IST" name="Loan Department Suite" finished-at="2023-11-01T02:21:45 IST" duration-ms="203">
+    <groups>
+    </groups>
+    <test started-at="2023-11-01T02:21:45 IST" name=" Personal Loan Test" finished-at="2023-11-01T02:21:45 IST" duration-ms="203">
+      <class name="com.testng.demo.TestNGDemo1">
+        <test-method signature="demoTestd()[pri:0, instance:com.testng.demo.TestNGDemo1@e15b7e8]" started-at="2023-11-01T02:21:45 IST" name="demoTestd" finished-at="2023-11-01T02:21:45 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoTestd -->
+        <test-method signature="demoTeste()[pri:0, instance:com.testng.demo.TestNGDemo1@e15b7e8]" started-at="2023-11-01T02:21:45 IST" name="demoTeste" finished-at="2023-11-01T02:21:45 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoTeste -->
+        <test-method signature="demoTesta()[pri:0, instance:com.testng.demo.TestNGDemo1@e15b7e8]" started-at="2023-11-01T02:21:45 IST" name="demoTesta" finished-at="2023-11-01T02:21:45 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoTesta -->
+        <test-method signature="demoTestc()[pri:0, instance:com.testng.demo.TestNGDemo1@e15b7e8]" started-at="2023-11-01T02:21:45 IST" name="demoTestc" finished-at="2023-11-01T02:21:45 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoTestc -->
+        <test-method signature="demoTestb()[pri:0, instance:com.testng.demo.TestNGDemo1@e15b7e8]" started-at="2023-11-01T02:21:45 IST" name="demoTestb" finished-at="2023-11-01T02:21:45 IST" depends-on-methods="com.testng.demo.TestNGDemo1.demoTeste, com.testng.demo.TestNGDemo1.demoTestd" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoTestb -->
+      </class> <!-- com.testng.demo.TestNGDemo1 -->
+    </test> <!--  Personal Loan Test -->
+  </suite> <!-- Loan Department Suite -->
+</testng-results>
